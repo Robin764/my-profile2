@@ -1,0 +1,65 @@
+/*Colors and fonts*/
+body{
+	background: rgb(233,241,243);
+	color: rgb(22,45,52);
+	font-family: Open sans-serif;
+	font-size: 17px;
+}
+h1,h2,h3 {
+	font-family: Comic sans MS;
+}
+h1 {
+	color: darkblue;
+	font-size: 32px;
+}
+h2 {
+	color: rgb(39,103,121);
+	font-size: 24px;
+	font-weight: lighter;
+}
+a {
+	text-decoration: none;
+	color: dimgrey;
+	font-family: Helvetica;
+}
+a:hover {
+	color: dodgerblue;
+}
+a {
+	font-family: Roboto,sans-serif ;
+	text-decoration : none;
+	color: #6B72E1;
+	font-weight: 600;
+	font-size :16px
+}
+
+/* Custom design with class */
+.container {
+	width : 700px;
+	margin : 40px auto;
+}
+.card-white {
+	background-color: white;
+	padding : 40px ;
+	box-shadow : 0px 10px 30px rgba(0,0,0.1);
+	border-radius: 4px;
+}
+
+/*Custom design with class*/
+.container {
+	width :70px;
+	margin: 40px auto;
+}
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0.1);
+	border-radius: 4px;
+	margin: 80px;
+}
+.img-circle {
+	border-radius: 50%;
+}
+.list-inline {
+	list-style: none;
+}
